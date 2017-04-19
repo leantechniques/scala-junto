@@ -1,0 +1,45 @@
+*.class
+*.log
+
+# IntelliJ Specific
+.idea
+*.iml
+
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# Play specific
+logs
+project/project
+project/target
+target
+tmp
+dist
+.cache
+
+#Exclude proxy password
+/deployment/data-prep-consumer/data-prep-consumer.jar
+/src/codedeploy/content/
+/src/codedeploy/scripts/ApplicationStart/data-prep-consumer-1.0/
+src/main/scala/com/slalom/test.sc
+/data-prep-consumer/src/codedeploy/scripts/ApplicationStart/
+data-prep-consumer/src/codedeploy/scripts/ApplicationStart/
+/data-prep-consumer/src/codedeploy/content/
+data-prep-consumer/src/codedeploy/content/
+src/codedeploy/scripts/ApplicationStart/application_start.bak
+/GPATH
+/GRTAGS
+/GSYMS
+/GTAGS
